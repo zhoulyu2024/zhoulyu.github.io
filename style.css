@@ -1,43 +1,57 @@
-body {
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-    line-height: 1.6;
-}
-
+/* Header Styling */
 header {
     background: #2C3E50;
     color: white;
-    padding: 20px;
-    text-align: left;  /* Align content to the left */
-    position: absolute;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between; /* Title on the left, Nav on the right */
+    align-items: center;
+    position: fixed;
+    width: 100%;
     top: 0;
     left: 0;
-    width: 250px;  /* Adjust width as needed */
-    height: 100vh; /* Make it full height (left sidebar) */
+    height: 60px;
 }
 
-h1 {
-    background: #2C3E50;
+/* Title on the Left */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Tabs on the Right */
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* Space Between Tabs (Around 5 Characters) */
+nav ul li {
+    margin-left: 40px; /* Adjust spacing for ~5 characters */
+}
+
+nav ul li a {
     color: white;
-    padding: 20px;
-    text-align: right;  /* Align content to the left */
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 250px;  /* Adjust width as needed */
-    height: 100vh; /* Make it full height (left sidebar) */
-}
-
-h2 {
-    color: #2C3E50;
-}
-
-a {
-    color: #2980B9;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
 }
+
+/* Prevents Content Overlapping Header */
+body {
+    padding-top: 80px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
 
 section {
     margin-bottom: 20px;
