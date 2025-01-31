@@ -57,10 +57,10 @@ p {
 
 /* Adds Space Between Sections */
 section {
-     text-align: justified;  /* Ensures paragraph text is fully justified */
-    margin-left: 40px;  /* Adds space on the left */
-    margin-right: 40px; /* Adds space on the right */
-    line-height: 3;  /* Set line spacing to 1.5 */
+     text-align: justify;  /* Ensures paragraph text is fully justified */
+    margin-left: 50px;  /* Adds space on the left */
+    margin-right: 50px; /* Adds space on the right */
+    line-height: 2;  /* Set line spacing to 1.5 */
     margin-bottom: 10px; /* Space after each line */
 }
 
