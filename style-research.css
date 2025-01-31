@@ -57,12 +57,14 @@ p {
 section {
     padding: 40px 0;  /* Adds vertical space above and below sections */
     margin-bottom: 40px; /* Extra margin to increase spacing */
+    line-height: 2;  /* Set line spacing to 1.5 */
 }
 
 /* Center Content with Margin */
 .container {
     max-width: 800px;  /* Limits width for better readability */
     margin: 0 auto;  /* Centers content horizontally */
+    line-height: 2;  /* Set line spacing to 1.5 */
 }
 
 /* Prevents Content Overlapping Header */
