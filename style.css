@@ -35,7 +35,7 @@ nav ul {
 
 /* Space Between Tabs (Around 5 Characters) */
 nav ul li {
-    margin-right: 60px; /* Adjust spacing for ~5 characters */
+    margin-right: 100px; /* Adjust spacing for ~5 characters */
 }
 
 nav ul li a {
