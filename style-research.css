@@ -1,0 +1,74 @@
+/* Header Styling */
+header {
+    background: #2C3E50;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between; /* Title on left, Nav on right */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 60px;
+}
+
+/* Title on the Left */
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Tabs on the Right */
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: 40px; /* Moves tabs slightly to the right */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+/* Space Between Tabs (More Right Shift) */
+nav ul li {
+    margin-left: 50px; /* Adjust spacing for ~5+ characters */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Justify Align All Paragraphs and Add Side Margins */
+p {
+    text-align: justify;  /* Ensures paragraph text is fully justified */
+    margin-left: 20px;  /* Adds space on the left */
+    margin-right: 20px; /* Adds space on the right */
+}
+
+/* Adds Space Between Sections */
+section {
+    padding: 40px 0;  /* Adds vertical space above and below sections */
+    margin-bottom: 40px; /* Extra margin to increase spacing */
+}
+
+/* Center Content with Margin */
+.container {
+    max-width: 800px;  /* Limits width for better readability */
+    margin: 0 auto;  /* Centers content horizontally */
+}
+
+/* Prevents Content Overlapping Header */
+body {
+    padding-top: 80px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
