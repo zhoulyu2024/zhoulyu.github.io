@@ -54,7 +54,8 @@ body {
 
 
 section {
-     text-align: justify; /* Ensures paragraph text is fully justified */
+    padding: 10px 0; 
+    text-align: justify; /* Ensures paragraph text is fully justified */
     margin-bottom: 20px;
 }
 
