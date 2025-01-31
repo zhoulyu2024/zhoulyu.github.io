@@ -1,3 +1,19 @@
+/* Centered A4-like paper container */
+.paper {
+    width: 794px;  /* A4 width in pixels */
+    min-height: 1123px;  /* A4 height in pixels */
+    background: white;
+    margin: 40px auto; /* Center on the page */
+    padding: 40px;  /* Add padding inside */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+    border-radius: 5px; /* Optional: Rounded corners */
+}
+.paper p {
+    text-align: justify;
+    line-height: 1.5;  /* Space between lines */
+    margin-bottom: 6px; /* 6px space after each paragraph */
+}
+
 /* Header Styling */
 header {
     background: #2C3E50;
