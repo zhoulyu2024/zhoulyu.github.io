@@ -24,6 +24,7 @@ header h1 {
 nav {
     display: flex;
     align-items: center;
+    margin-right: 40px; /* Moves tabs slightly to the right */
 }
 
 nav ul {
@@ -33,9 +34,9 @@ nav ul {
     margin: 0;
 }
 
-/* Space Between Tabs (Around 5 Characters) */
+/* Space Between Tabs (More Right Shift) */
 nav ul li {
-    margin-right: 100px; /* Adjust spacing for ~5 characters */
+    margin-left: 100px; /* Adjust spacing for ~5+ characters */
 }
 
 nav ul li a {
