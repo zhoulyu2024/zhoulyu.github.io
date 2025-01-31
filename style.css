@@ -7,11 +7,30 @@ body {
 }
 
 header {
-    text-align: center;
+    background: #2C3E50;
+    color: white;
     padding: 20px;
+    text-align: left;  /* Align content to the left */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;  /* Adjust width as needed */
+    height: 100vh; /* Make it full height (left sidebar) */
 }
 
-h1, h2 {
+h1 {
+    background: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: right;  /* Align content to the left */
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;  /* Adjust width as needed */
+    height: 100vh; /* Make it full height (left sidebar) */
+}
+
+h2 {
     color: #2C3E50;
 }
 
