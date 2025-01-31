@@ -54,5 +54,11 @@ body {
 
 
 section {
+     text-align: justify; /* Ensures paragraph text is fully justified */
     margin-bottom: 20px;
+}
+
+/* Justify Align All Paragraphs */
+p {
+    text-align: justify; /* Ensures paragraph text is fully justified */
 }
