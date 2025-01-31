@@ -65,8 +65,7 @@ nav ul li a {
 /* Justify Align All Paragraphs and Add Side Margins */
 p {
     text-align: justify;  /* Ensures paragraph text is fully justified */
-    margin-left: 20px;  /* Adds space on the left */
-    margin-right: 20px; /* Adds space on the right */
+   
 }
 
 /* Adds Space Between Sections */
