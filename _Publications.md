@@ -1,3 +1,8 @@
+---
+layout: default
+title: Publications
+---
+
 # Publications
 
 ## 1. Ultrathin rubbery bio-optoelectronic stimulators for untethered cardiac stimulation
