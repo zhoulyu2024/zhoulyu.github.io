@@ -48,11 +48,11 @@ nav ul li a {
 
 /* Justify Align All Paragraphs and Add Side Margins */
 p {
-    text-align: justify;  /* Ensures paragraph text is fully justified */
+    text-align: justified;  /* Ensures paragraph text is fully justified */
     margin-left: 40px;  /* Adds space on the left */
     margin-right: 40px; /* Adds space on the right */
-    line-height: 1.5;  /* Set line spacing to 1.5 */
-    margin-bottom: 6px; /* Space after each line */
+    line-height: 3;  /* Set line spacing to 1.5 */
+    margin-bottom: 10px; /* Space after each line */
 }
 
 /* Adds Space Between Sections */
