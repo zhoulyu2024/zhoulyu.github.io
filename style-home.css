@@ -99,7 +99,7 @@ body {
 .text-overlay {
     position: absolute;
     top: 50%; /* Center text vertically */
-    right: 50%; /* Center text horizontally */
+    left: 50%; /* Center text horizontally */
     transform: translate(-50%, -50%); /* Adjusts exact center */
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white;
