@@ -1,7 +1,7 @@
 /* Centered A4-like paper container */
 .paper {
     width: 794px;  /* A4 width in pixels */
-    min-height: 1123px;  /* A4 height in pixels */
+    min-height: 500px;  /* A4 height in pixels */
     background: white;
     margin: 40px auto; /* Center on the page */
     padding: 40px;  /* Add padding inside */
