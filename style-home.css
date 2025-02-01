@@ -91,11 +91,6 @@ body {
     padding-top: 80px; /* Prevent header from overlapping */
 }
 
-.image-container {
-    position: relative;
-    display: inline-block;
-}
-
 .text-overlay {
     position: absolute;
     top: 50%; /* Center text vertically */
