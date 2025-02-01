@@ -20,7 +20,7 @@ header {
     color: white;
     padding: 15px 20px;
     display: flex;
-    justify-content: space-between; /* Title on the left, Nav on the right */
+    justify-content: space-between; /* Title on left, Nav on right */
     align-items: center;
     position: fixed;
     width: 100%;
@@ -28,6 +28,7 @@ header {
     left: 0;
     height: 60px;
 }
+
 
 /* Title on the Left */
 header h1 {
@@ -47,12 +48,17 @@ nav ul {
     list-style: none;
     display: flex;
     padding: 0;
-    margin: 0;
+    margin-right: 40px;
 }
 
 /* Space Between Tabs (More Right Shift) */
 nav ul li {
     margin-left: 100px; /* Adjust spacing for ~5+ characters */
+}
+
+ul {
+    margin-left: 10px; /* Adds spacing around the whole list */
+    padding-left: 0px; /* Space for bullet points */
 }
 
 nav ul li a {
