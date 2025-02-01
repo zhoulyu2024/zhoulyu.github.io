@@ -48,7 +48,7 @@ nav ul {
     list-style: none;
     display: flex;
     padding: 0;
-    margin: 0;
+    margin-right: 40px;
 }
 
 /* Space Between Tabs (More Right Shift) */
