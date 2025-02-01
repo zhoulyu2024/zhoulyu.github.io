@@ -91,5 +91,22 @@ body {
     padding-top: 80px; /* Prevent header from overlapping */
 }
 
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 10%; /* Center text vertically */
+    right: 10%; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Adjusts exact center */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
 
 
