@@ -98,8 +98,8 @@ body {
 
 .text-overlay {
     position: absolute;
-    top: 10%; /* Center text vertically */
-    right: 10%; /* Center text horizontally */
+    top: 50%; /* Center text vertically */
+    right: 50%; /* Center text horizontally */
     transform: translate(-50%, -50%); /* Adjusts exact center */
     background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white;
@@ -109,4 +109,8 @@ body {
     border-radius: 5px;
 }
 
+.full-width {
+    width: 100%;  /* Image stretches to fit the full screen width */
+    height: auto; /* Keeps aspect ratio */
+}
 
