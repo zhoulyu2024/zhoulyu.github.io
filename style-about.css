@@ -41,7 +41,7 @@ header h1 {
 nav {
     display: flex;
     align-items: center;
-    margin-right: 40px; /* Moves tabs slightly to the right */
+    margin-right: 50px; /* Moves tabs slightly to the right */
 }
 
 nav ul {
