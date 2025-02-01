@@ -29,6 +29,7 @@ header {
     height: 60px;
 }
 
+
 /* Title on the Left */
 header h1 {
     font-size: 24px;
@@ -40,19 +41,24 @@ header h1 {
 nav {
     display: flex;
     align-items: center;
-    margin-right: 40px; /* Moves tabs slightly to the right */
+    margin-right: 80px; /* Moves tabs slightly to the right */
 }
 
 nav ul {
     list-style: none;
     display: flex;
     padding: 0;
-    margin: 0;
+    margin-right: 40px;
 }
 
 /* Space Between Tabs (More Right Shift) */
 nav ul li {
     margin-left: 100px; /* Adjust spacing for ~5+ characters */
+}
+
+ul {
+    margin-left: 10px; /* Adds spacing around the whole list */
+    padding-left: 0px; /* Space for bullet points */
 }
 
 nav ul li a {
