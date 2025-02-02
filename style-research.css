@@ -77,7 +77,7 @@ p {
 
 /* Adds Space Between Sections */
 section {
-    padding: 20px;  /* Adds vertical space above and below sections */
+    padding: 10px;  /* Adds vertical space above and below sections */
     margin-bottom: 10px; /* Extra margin to increase spacing */
     line-height: 2;  /* Set line spacing to 1.5 */
     text-align: justify;  /* Ensures paragraph text is fully justified */
