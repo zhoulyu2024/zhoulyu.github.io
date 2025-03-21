@@ -1,51 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr. Rao Homepage</title>
-    <link rel="stylesheet" href="style-home.css">
-
-     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Added custom CSS to ensure the image fills the screen */
+        /* Centered A4-like paper container */
+        .paper {
+            width: 210mm;
+            min-height: 200mm;
+            background: #d3d3d3;
+            margin: 60px auto;
+            padding: 40px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            border-radius: 5px;
+        }
+        
+        /* Header styling */
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 60px;
+            z-index: 1000;
+        }
+
+        /* Image section styling */
+        #picture {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            margin-top: 60px; /* Offset for fixed header */
+        }
+
         #picture img {
             width: 100%;
-            height: 100vh; /* Full viewport height */
-            object-fit: cover; /* Ensures the image covers the entire area */
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Welcome text overlay */
+        #welcome {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            max-width: 500px;
+            background: rgba(255,255,255,0.9);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+            z-index: 100;
+        }
+
+        /* Text styling */
+        #welcome li {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            list-style: none;
+        }
+
+        /* Navigation styling */
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            margin-right: 80px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: opacity 0.3s ease;
+        }
+
+        nav a:hover {
+            opacity: 0.8;
+        }
+
+        /* Base styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding-top: 60px; /* Space for fixed header */
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+            padding-left: 40px;
         }
     </style>
-
 </head>
 <body>
     <header>
         <h1>Dr. Zhoulyu Rao</h1>
- <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Research.html">Research</a></li>
-            <li><a href="Publications.html">Publications</a></li>
-            <li><a href="About me.html">About me</a></li>
-        </ul>
- </nav>
-     </header>
- 
-    <div class="relative">
-        <section id="picture">
-            <img src="AdobeStock_833490391.jpeg" alt="welcome image">
-        </section>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="About me.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-
-  <section id="welcome" class="absolute top-0 right-0 p-8 max-w-md bg-white bg-opacity-90 m-4 rounded-lg shadow-lg">
-            <p class="text-gray-800">Welcome to my personal website! I am Zhoulyu, now a postdoctoral researcher at UIUC in Dr. Cunjiang Yu’s group, specializing in flexible/stretchable electronics, bioelectronics, etc. My research focuses on developing innovative bio-integrated electronic systems for medical applications. Through my work, I aim to fuse engineering electronics and soft biological tissues, pushing the boundaries of scientific discovery and real-world applications.</p>
-            <p class="text-gray-800 mt-4">I sincerely appreciate your interest in my research. I am always open to meaningful discussions, potential partnerships, and new opportunities. I invite you to explore my work, connect with me, and join in the pursuit of innovative solutions to pressing scientific challenges. Thank you for visiting, and I look forward to future collaborations, discussions, and discoveries together.</p>
+    <div id="picture">
+        <img src="AdobeStock_833490391.jpeg" alt="Research lab image">
+        <section id="welcome">
+            <ul>
+                <li>Welcome to my personal website! I am Zhoulyu, now a postdoctoral researcher at UIUC in Dr. Cunjiang Yu’s group, specializing in flexible/stretchable electronics, bioelectronics, etc. My research focuses on developing innovative bio-integrated electronic systems for medical applications.</li>
+                <li>I sincerely appreciate your interest in my research. I am always open to meaningful discussions, potential partnerships, and new opportunities. Thank you for visiting, and I look forward to future collaborations and discoveries together.</li>
+            </ul>
         </section>
     </div>
-
-   
 </body>
 </html>
-
-
