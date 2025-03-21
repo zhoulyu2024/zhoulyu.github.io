@@ -4,82 +4,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Dr. Zhoulyu</title>
-    <link rel="stylesheet" href="style-about.css">
+    <style>
+        /* Centered A4-like paper container */
+        .paper {
+            width: 794px;
+            min-height: 1123px;
+            background: white;
+            margin: 40px auto;
+            padding: 40px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        /* Header Styling */
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 60px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Tabs */
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin-right: 40px;
+            gap: 40px; /* Adjust this value to change the spacing */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Body Styling */
+        body {
+            padding-top: 80px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h1 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Dr. Zhoulyu Rao</h1>
-         <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Research.html">Research</a></li>
-            <li><a href="Publications.html">Publications</a></li>
-            <li><a href="About me.html">About me</a></li>
-        </ul>
-     </header>
-<div class="paper">
-    <section id="affiliation">
-     <h1>Dr. Zhoulyu Rao</h1>
-Materials Research Laboratory <br>
-University of Illinois, Urbana-Champaign <br>
-104 South Goodwin Ave. Urbana, IL 61801, USA<br>
-Office: MRL 480;<br>
-e-mail: zhoulyu@illinois.edu<br>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="About me.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </section>
+    <div class="paper">
+        <section id="affiliation">
+            <h1>Dr. Zhoulyu Rao</h1>
+            <p>Materials Research Laboratory<br>University of Illinois, Urbana-Champaign<br>104 South Goodwin Ave. Urbana, IL 61801, USA<br>Office: MRL 480;<br>e-mail: zhoulyu@illinois.edu</p>
+        </section>
+        <section id="Education">
+            <h1>Education</h1>
+            <p>University of Illinois at Urbana-Champaign, Urbana, IL (Dec. 2024 – )<br>Post-doc, Materials Research Laboratory<br>Advisor: Prof. Cunjiang Yu</p>
+            <p>Pennsylvania State University, University Park, PA (Jan. 2022 – Dec. 2024)<br>Post-doc, Engineering Science and Mechanics<br>Advisor: Prof. Cunjiang Yu</p>
+        </section>
+    </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Dr. Zhoulyu</title>
+    <style>
+        /* Centered A4-like paper container */
+        .paper {
+            width: 794px;
+            min-height: 1123px;
+            background: white;
+            margin: 40px auto;
+            padding: 40px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
 
-     <section id="Education">
-         <h1>Educaiton</h1>
-<p>University of Illinois at Urbana-Champaign, Urbana, IL (Dec. 2024 – )<br>
-Post-doc, Materials Research Laboratory<br>
-Advisor: Prof. Cunjiang Yu
-</p>
-<p>Pennsylvania State University, University Park, PA (Jan. 2022 – Dec. 2024)<br>
-Post-doc, Engineering Science and Mechanics<br>
-Advisor: Prof. Cunjiang Yu
-</p>
-<p>University of Houston, Houston, TX (Aug. 2016 – Dec. 2021)<br>
-Ph.D., Material and Science Engineering<br>
-Advisor: Prof. Cunjiang Yu
-</p>
-<p>University of Science & Technology of China, Hefei, China (Sep. 2012 – Jul. 2015)<br>
-M.S., Inorganic Chemistry<br>
-Advisor: Prof. Yujie Xiong
-</p>
-<p>Xidian University, Xi'an, China (Aug. 2008 – Jul. 2012)<br>
-B.S., Applied Chemistry
-         </p>
-         
-    </section>
+        /* Header Styling */
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 60px;
+        }
 
-    <section id="Honors and Awards">
-        <h1>Honors and Awards</h1>
-        <ul>
-<li>2021, Chinese Government Award for Outstanding Students Studying Abroad</li>
-<li>2020, Mechanical Engineering Graduate Scholarship, University of Houston</li>
-<li>2019, Mechanical Engineering Graduate Scholarship, University of Houston</li>
-<li>2019, Cora Hawley Scholarship from TcSUH, University of Houston</li>
-<li>2015, P&G Outstanding Graduates Scholarship, Chinese Academy of Sciences</li>
-<li>2015, Excellent Graduate Award, Anhui Province</li>
-</ul>
-    </section>
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
 
-    <section id="Conference">
-        <h1>Conference</h1>
-Z. Rao, F. Ershad, and C. Yu. Untethered Cardiac Stimulation and Pacing Enabled by Ultra-thin Rubbery Bio-optoelectronic Stimulators, 2024 MRS Spring Meeting & Exhibit, 22-26, Apr. 2024, Seattle, WA, USA.<br>
-Z. Rao, and C. Yu. Shape-Adaptive Curvy Imager Manufactured by Conformal Additive Stamp Printing, Society of Engineering Science 2022; 16-21, Oct. 2022, College Station, TX, USA.
+        /* Navigation Tabs */
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin-right: 40px;
+            gap: 40px; /* Adjust this value to change the spacing */
+        }
 
-    </section>
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
 
-    <section id="review">
-        <h1>Peer review Service</h1>
-         <ul>
-            <li>Soft Science</li>
-            <li>Bioactive Materials</a></li>
-            <li>npj Robotics</li>
-            <li>Energy Materials</li>
-            <li>Materials Science in Semiconductor Processing</li>
-        </ul>
-    </section>
-    
-</div>
+        /* Body Styling */
+        body {
+            padding-top: 80px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h1 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Dr. Zhoulyu Rao</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="About me.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="paper">
+        <section id="affiliation">
+            <h1>Dr. Zhoulyu Rao</h1>
+            <p>Materials Research Laboratory<br>University of Illinois, Urbana-Champaign<br>104 South Goodwin Ave. Urbana, IL 61801, USA<br>Office: MRL 480;<br>e-mail: zhoulyu@illinois.edu</p>
+        </section>
+        <section id="Education">
+            <h1>Education</h1>
+            <p>University of Illinois at Urbana-Champaign, Urbana, IL (Dec. 2024 – )<br>Post-doc, Materials Research Laboratory<br>Advisor: Prof. Cunjiang Yu</p>
+            <p>Pennsylvania State University, University Park, PA (Jan. 2022 – Dec. 2024)<br>Post-doc, Engineering Science and Mechanics<br>Advisor: Prof. Cunjiang Yu</p>
+        </section>
+    </div>
+</body>
+</html>
