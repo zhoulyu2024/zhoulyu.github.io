@@ -43,14 +43,23 @@
         }
 
         /* Navigation Tabs */
+           nav {
+            display: flex;
+            align-items: center;
+            margin-right: 80px; /* Moves tabs slightly to the right */
+        }
+        
         nav ul {
             list-style: none;
             display: flex;
             padding: 0;
             margin-right: 40px;
-            gap: 40px; /* Adjust this value to change the spacing */
+                   }
+ /* Space Between Tabs (More Right Shift) */
+        nav ul li {
+            margin-left: 100px; /* Adjust spacing for ~5+ characters */
         }
-
+        
         nav ul li a {
             text-align: justify;
             color: white;
