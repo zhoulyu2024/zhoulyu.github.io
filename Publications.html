@@ -4,38 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications - Dr. Zhoulyu</title>
-    <link rel="stylesheet" href="style-pub.css">
+    <style>
+        /* Centered A4-like paper container */
+        .paper {
+            width: 794px;
+            min-height: 1123px;
+            background: white;
+            margin: 40px auto;
+            padding: 40px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+        .paper p {
+            text-align: justify;
+            line-height: 1.5;
+            margin-bottom: 6px;
+        }
+
+        /* Header Styling */
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 60px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Tabs */
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin-right: 40px;
+            gap: 40px; /* Adjust this value to change the spacing */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Body Styling */
+        body {
+            padding-top: 80px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h1 {
+            margin-bottom: 20px;
+        }
+
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Dr. Zhoulyu Rao</h1>
-         <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Research.html">Research</a></li>
-            <li><a href="Publications.html">Publications</a></li>
-            <li><a href="About me.html">About me</a></li>
-        </ul>
-     </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="About me.html">About me</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <div class="paper">
-    <section>
-        <h1>Selected Publications</h1>
-        <ul>
-            <li>F. Ershad#, Z. Rao#, S. Maharajan#, et al. Bioprinted optoelectronically active cardiac tissues, <strong>Science Advances</strong>, 2025, 1, eadt7210. (# equal contribution)</li>
-            <li>Z. Rao, F. Ershad, Y. Guan, et al. Ultrathin rubbery bio-optoelectronic stimulators for untethered cardiac stimulation, <strong>Science Advances</strong>, 2024, 10, eadq5061.</li>
-            <li>Z. Rao, Y. Lu, Y. Liu, C. Yu. Microprinting on curved surfaces with sugar, <strong>Matter</strong>, 2023, 6(3): 671-673.</li>
-            <li>Z. Rao#, Y. Lu#, Z. Li, et al. Curvy, shape-adaptive imagers based on printed optoelectronic pixels with a kirigami design, <strong>Nature Electronics</strong>, 2021, 4(7): 513-521. (# equal contribution)</li>
-            <li>Z. Rao, A. Thukral, P. Yang, et al. All-polymer based stretchable rubbery electronics and sensors, <strong>Advanced Functional Materials</strong>, 2021, 32(15): 2111232.</li>
-            <li>R. Long#, Z. Rao#, K. Mao, et al. Efficient coupling of solar energy to catalytic hydrogenation by using well-designed palladium nanostructures, <strong>Angewandte Chemie International Edition</strong>, 2015, 127(8): 2455-2460. (# equal contribution)</li>
-                        
-        </ul>
-    </section>
-
-    <section>
-        <h1>Full Publications</h1>
-        <ol>
-<li> F. Ershad#, Z. Rao#, S. Maharajan#, F. Mesquita, J. Ha, L. Gonzalez, T. Haideri, E. Curty da Costa, A. Moctezuma-Ramirez, Y. Wang, S. Jang, Y. Lu, S. Patel, X. Wang, Y. Tao, J. Weygant, C. Garciamendez-Mijares, L. lark, M. Zubair, X. L. Lian, A. Elgalad, J. Yang, C. Hochman-Mendez, Y. S. Zhang, C. Yu, Bioprinted optoelectronically active cardiac tissues. Science Advances, 2025, 1, eadt7210. (# equal contribution)</li>
+        <section>
+            <h1>Selected Publications</h1>
+            <ul>
+                <li>F. Ershad#, Z. Rao#, S. Maharajan#, et al. Bioprinted optoelectronically active cardiac tissues, <strong>Science Advances</strong>, 2025, 1, eadt7210. (# equal contribution)</li>
+                <li>Z. Rao, F. Ershad, Y. Guan, et al. Ultrathin rubbery bio-optoelectronic stimulators for untethered cardiac stimulation, <strong>Science Advances</strong>, 2024, 10, eadq5061.</li>
+                <li>Z. Rao, Y. Lu, Y. Liu, C. Yu. Microprinting on curved surfaces with sugar, <strong>Matter</strong>, 2023, 6(3): 671-673.</li>
+                <li>Z. Rao#, Y. Lu#, Z. Li, et al. Curvy, shape-adaptive imagers based on printed optoelectronic pixels with a kirigami design, <strong>Nature Electronics</strong>, 2021, 4(7): 513-521. (# equal contribution)</li>
+                <li>Z. Rao, A. Thukral, P. Yang, et al. All-polymer based stretchable rubbery electronics and sensors, <strong>Advanced Functional Materials</strong>, 2021, 32(15): 2111232.</li>
+            </ul>
+        </section>
+        <section>
+            <h1>Full Publications</h1>
+            <ol>
+                <li>F. Ershad#, Z. Rao#, S. Maharajan#, F. Mesquita, J. Ha, L. Gonzalez, T. Haideri, E. Curty da Costa, A. Moctezuma-Ramirez, Y. Wang, S. Jang, Y. Lu, S. Patel, X. Wang, Y. Tao, J. Weygant, C. Garciamendez-Mijares, L. lark, M. Zubair, X. L. Lian, A. Elgalad, J. Yang, C. Hochman-Mendez, Y. S. Zhang, C. Yu, Bioprinted optoelectronically active cardiac tissues. Science Advances, 2025, 1, eadt7210. (# equal contribution)</li>
+                <li>Z. Rao, F. Ershad, Y. Guan, F. Mesquita, E. Costa, M. Morales-Garza, A. Moctezuma-Ramirez, B. Kan, Y. Lu, S. Patel, H. Shim, K. Cheng, W. Wu, T. Haideri, X. L. Lian, A. Karim, J. Yang, A. Elgalad, C. Hochman-Mendez, and C. Yu. Ultrathin rubbery bio-optoelectronic stimulators for untethered cardiac stimulation, Science Advances, 2024, 10, eadq5061.</li>
+           <li> F. Ershad#, Z. Rao#, S. Maharajan#, F. Mesquita, J. Ha, L. Gonzalez, T. Haideri, E. Curty da Costa, A. Moctezuma-Ramirez, Y. Wang, S. Jang, Y. Lu, S. Patel, X. Wang, Y. Tao, J. Weygant, C. Garciamendez-Mijares, L. lark, M. Zubair, X. L. Lian, A. Elgalad, J. Yang, C. Hochman-Mendez, Y. S. Zhang, C. Yu, Bioprinted optoelectronically active cardiac tissues. Science Advances, 2025, 1, eadt7210. (# equal contribution)</li>
 <li> Z. Rao, F. Ershad, Y. Guan, F. Mesquita, E. Costa, M. Morales-Garza, A. Moctezuma-Ramirez, B. Kan, Y. Lu, S. Patel, H. Shim, K. Cheng, W. Wu, T. Haideri, X. L. Lian, A. Karim, J. Yang, A. Elgalad, C. Hochman-Mendez, and C. Yu. Ultrathin rubbery bio-optoelectronic stimulators for untethered cardiac stimulation, Science Advances, 2024, 10, eadq5061.</li>
 <li> J. Hong, Z. Rao, S. Duan, S. Xiang, X. Wei, Y. Xiao, Y. Chen, H. Sheng, J. Xia, W. Lei, C. Yu, Q. Shi, J. Wu. A paradigm shift toward active resistive sensing driven by triboelectric nanogenerator, Nano Energy, 2024, 131:110327</li>  <li>Z. Rao, Y. Lu, Y. Liu, and C. Yu. Microprinting on curved surfaces with sugar. Matter, 2023, 6(3): 671-673.</li>
 <li> F. Ershad, M. Houston, S. Patel, L. Contreras, B. Koirala, Y. Lu, Z. Rao, Y. Liu, N. Dias, A. Haces-Garcia, W. Zhu, Y. Zhang, and C. Yu. Customizable, reconfigurable, and anatomically coordinated large-area, high-density electromyography from drawn-on-skin electrode arrays. PNAS Nexus, 2023, 2(1), pgac291. </li>
@@ -61,9 +139,11 @@
 <li> A. Thukral, F. Ershad, N. Enan, Z. Rao, and C. Yu. Soft ultrathin silicon electronics for soft neural interfaces. IEEE Nanotechnology Magazine, 2018, 12(1): 21-34.</li>
 <li> R. Long#, Z. Rao#, K. Mao, Y. Li, C. Zhang, Q. Liu, C. Wang, Z. Li, X. Wu, and Y. Xiong. Efficient coupling of solar energy to catalytic hydrogenation by using well-designed palladium nanostructures. Angewandte Chemie International Edition, 2015, 127(8): 2455-2460. (# equal contribution)</li>
 
- </ol>
-    </section>
+            </ol>
+        </section>
     </div>
-   
 </body>
 </html>
+
+
+
