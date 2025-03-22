@@ -4,41 +4,113 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Research - Dr. Zhoulyu</title>
-    <link rel="stylesheet" href="style-research.css">
+    <style>
+        /* Centered A4-like paper container */
+        .paper {
+            width: 794px;
+            min-height: 1123px;
+            background: white;
+            margin: 40px auto;
+            padding: 40px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            border-radius: 5px;
+        }
+
+        /* Header Styling */
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            height: 60px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Navigation Tabs */
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin-right: 40px;
+            gap: 40px; /* Adjust this value to change the spacing */
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        /* Body Styling */
+        body {
+            padding-top: 80px;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+
+        /* Section Styling */
+        section {
+            margin-bottom: 20px;
+        }
+
+        section h1, section h2 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Dr. Zhoulyu Rao</h1>
-         <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Research.html">Research</a></li>
-            <li><a href="Publications.html">Publications</a></li>
-            <li><a href="About me.html">About me</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Research.html">Research</a></li>
+                <li><a href="Publications.html">Publications</a></li>
+                <li><a href="About me.html">About me</a></li>
+            </ul>
         </nav>
     </header>
-  <div class="paper">
-    <section>
-        <h1>My Research</h1>
-        <p>My research interest focuses on pioneering new electronic materials and devices to bridge the gap between engineering devices and biological systems, to overcome some great challenges in or related to imaging, healthcare, medicine, robotics, etc. To achieve this goal, my research spans from the creation of electronic materials/devices with high area coverage, ultrathin thickness, or softness/stretchability-outperforming counterparts achieved by traditional technologies, to validating the devices in small animal models. </p>
-    </section>
-<section>
-        <h2>My previous research area included three primary topics:</h2>
-        
-    <ul>
-            <li>A) <Strong>Bioelectronics and bio-optoelectronics:</Strong> new biophysical optoelectronic materials/devices to seamlessly interface and modulate living biological species in a non-genetic fashion and untethered manner. One goal is to design a suitable material with tissue-like mechanical softness and deformability while offering optoelectronic performance to allow effective biological stimulation and pacing.</li>
-             <img src="Slide1.JPG" alt="project Picture" width="500">
-        
-        <li>B) <Strong>3D Curvy optoelectronics:</Strong> Optoelectronic imaging systems with 3D curvy shapes and form factors that normally adopt bio-inspired designs to meet the needs in biomedical, optoelectronics, communications, etc. </li>
-        <img src="Slide3.JPG" alt="project Picture" width="500">   
-        
-        <li>C) <Strong>Rubbery electronics:</Strong> Material innovation to build stretchable electronics entirely from intrinsically stretchable electronic materials, neatly avoiding complex structural engineering. Rubbery electronics aims at the symbiosis and fusion of engineering and biology.</li>
-            
-        </ul>
-    
-    </section>
-</div>
-    
+
+    <div class="paper">
+        <section>
+            <h1>My Research</h1>
+            <p>My research interest focuses on pioneering new electronic materials and devices to bridge the gap between engineering devices and biological systems, to overcome some great challenges in or related to imaging, healthcare, medicine, robotics, etc. To achieve this goal, my research spans from the creation of electronic materials/devices with high area coverage, ultrathin thickness, or softness/stretchability-outperforming counterparts achieved by traditional technologies, to validating the devices in small animal models.</p>
+        </section>
+        <section>
+            <h2>My previous research area included three primary topics:</h2>
+            <ul>
+                <li><strong>Bioelectronics and bio-optoelectronics:</strong> New biophysical optoelectronic materials/devices to seamlessly interface and modulate living biological species in a non-genetic fashion and untethered manner. One goal is to design a suitable material with tissue-like mechanical softness and deformability while offering optoelectronic performance to allow effective biological stimulation and pacing.</li>
+                <li><strong>3D Curvy optoelectronics:</strong> Optoelectronic imaging systems with 3D curvy shapes and form factors that normally adopt bio-inspired designs to meet the needs in biomedical, optoelectronics, communications, etc.</li>
+                <li><strong>Rubbery electronics:</strong> Material innovation to build stretchable electronics entirely from intrinsically stretchable electronic materials, neatly avoiding complex structural engineering. Rubbery electronics aims at the symbiosis and fusion of engineering and biology.</li>
+            </ul>
+        </section>
+    </div>
 </body>
 </html>
